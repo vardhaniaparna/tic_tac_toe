@@ -1,0 +1,11 @@
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.Text?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Text text="Welcome to Tic Tac Toe"
+          GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2"/>
+
+</GridPane>
